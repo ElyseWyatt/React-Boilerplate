@@ -7,8 +7,9 @@
   "author": "Elyse Wyatt",
   "license": "ISC",
   "scripts": {
-    "start": "webpack && node server",
+    "start": "yarn build && node server",
     "dev": "node server & webpack --watch",
+    "build": "webpack --config /webpack.config.js",
     "test": "jest --watchAll"
   },
   "babel": {
