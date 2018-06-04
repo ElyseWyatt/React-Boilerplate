@@ -1,8 +1,11 @@
 {
-  "name": "a",
+  "name": "boilerplate",
   "version": "0.2.1",
-  "description": "A webpack React starter",
-  "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
+  "description": "A react boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-academy-challenges/boilerplate-react-webpack.git"
+  },
   "main": "server/index.js",
   "author": "Elyse Wyatt",
   "license": "ISC",
@@ -50,5 +53,12 @@
     "sqlite3": "^3.1.9",
     "superagent": "^3.8.1",
     "supertest": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-academy-challenges/boilerplate-react-webpack/issues"
+  },
+  "homepage": "https://github.com/dev-academy-challenges/boilerplate-react-webpack#readme",
+  "directories": {
+    "test": "tests"
   }
 }
