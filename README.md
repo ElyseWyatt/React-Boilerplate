@@ -1,1 +1,1 @@
-A react boilerplate.
+*A react boilerplate.*
