@@ -1,3 +1,3 @@
 # React boilerplate. #
 
-A React boilerplate for creating new projects.
+A React boilerplate to use for new stuff.
